@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<!-- Basic -->
+
+<head th:replace="~{fragments::head}">
+
+
+</head>
+
+<body>
+<div th:replace="~{fragments::main-top}"></div>
+<!-- End Main Top -->
+
+<!-- Start Main Top -->
+<header th:replace="~{fragments::main-header}"></header>
+<!-- End Main Top -->
+
+<!-- Start Top Search -->
+<div th:replace="~{fragments::top-search}">
+</div>
+<!-- End Top Search -->
+
+<!-- Start About Page  -->
+<div class="about-box-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-frame"><img class="img-fluid" src="images/bun-bo-hue-1_1628650972.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="noo-sh-title-top">Welcome to KyAnh Quán</span></h2>
+                <p>Chào mừng bạn đến với cửa hàng của chúng tôi. Chúng tôi đã có 10 năm kinh nghiệm trong việc kinh doanh
+                 đồ ăn đến với thực khách. Đảm bảo rằng bạn sẽ có trải nghiệm tuyệt vời với chúng tôi.</p>
+                <p>Tại đây bạn có thể lựa chọn những món ăn ngon từ những nguyên liệu tươi ngon nhất!</p>
+                <p>Bên cạnh đó chúng tôi cũng phục vụ đồ uống để các bạn có thể thưởng thức cùng với đồ ăn.</p>
+                <a class="btn hvr-hover" href="#">Read More</a>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>We are Trusted</h3>
+                    <p>Chúng tôi chỉ làm việc với các nhà chế biến cao cấp và các nhà nhập khẩu đáng tin cậy.
+                        Chúng tôi chết biến các sản phẩm chất lượng mà chúng tôi sẽ phục vụ cho bạn bè và gia đình của bạn. </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>We are Professional</h3>
+                    <p>Đến với chúng tôi các bạn sẽ trải qua những trải nghiệm tuyệt vời
+                        với những món ăn ngon và phục vụ hoàn hảo.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="service-block-inner">
+                    <h3>We are Expert</h3>
+                    <p>Thực phẩm của chúng tôi đều là những sản phẩm tươi ngon nhất
+                        để đảm bảo chất lượng món ăn và sức khoẻ của bạn. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Start Footer  -->
+<footer th:replace="~{fragments::footer}">
+
+</footer>
+
+
+<!-- ALL JS FILES -->
+<div th:replace="~{fragments::script}"></div>
+</body>
+
+</html>
